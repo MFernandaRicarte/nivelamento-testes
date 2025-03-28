@@ -1,0 +1,36 @@
+{
+	"info": {
+		"_postman_id": "7ac41c57-d05a-4bb2-80bd-3f823df98adf",
+		"name": "Teste API ANS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43566657",
+		"_collection_link": "https://fernandaricarte.postman.co/workspace/Fernanda-Ricarte's-Workspace~3def9430-8376-47c3-875d-0a9be5a6f077/collection/43566657-7ac41c57-d05a-4bb2-80bd-3f823df98adf?action=share&source=collection_link&creator=43566657"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8000/buscar?query=amil",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/buscar?query=amil",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"buscar"
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "amil"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
