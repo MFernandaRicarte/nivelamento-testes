@@ -98,3 +98,6 @@ Resultado Top 10 despesas médico-hospitalares – Ano
 - DBeaver – ferramenta utilizada para testar, visualizar e validar os scripts SQL
 - IntelliJ IDEA – utilizado apenas para organização e versionamento dos arquivos no GitHub
 
+### Observação
+Os scripts foram testados e validados no ambiente DBeaver com PostgreSQL.
+Após a execução, os arquivos foram organizados no projeto via IntelliJ IDEA para fins de versionamento e publicação no GitHub.
