@@ -101,3 +101,18 @@ Resultado Top 10 despesas médico-hospitalares – Ano
 ### Observação
 Os scripts foram testados e validados no ambiente DBeaver com PostgreSQL.
 Após a execução, os arquivos foram organizados no projeto via IntelliJ IDEA para fins de versionamento e publicação no GitHub.
+
+## Teste 4
+Este teste tem como objetivo avaliar a habilidade de desenvolvimento de uma API com backend em Python e frontend em Vue.js, além da integração entre essas camadas por meio de uma interface web e rotas HTTP. A tarefa envolve:
+- Leitura do arquivo CSV com dados cadastrais de operadoras da ANS (mesmo arquivo utilizado no Teste 3);
+- Desenvolvimento de um servidor com uma rota de busca textual sobre os dados;
+- Criação de uma interface em Vue.js que consome a API;
+- Demonstração da funcionalidade por meio de uma coleção no Postman.
+
+### 🛠️ Tecnologias utilizadas
+- Python 3.10+ – linguagem utilizada no backend da aplicação
+- Flask – microframework Python utilizado para criar o servidor e as rotas da API
+- Vue.js – framework JavaScript utilizado para desenvolver a interface web
+- Axios – biblioteca utilizada no frontend para fazer requisições à API
+- Postman – utilizado para documentar e testar a API
+- CSV – arquivo de dados utilizado como base para a busca
