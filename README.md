@@ -26,31 +26,10 @@ cd teste-1
 ```
 Certifique-se de ter o **Java 17+** e o **Maven** instalados.
 
-### ✅ Execução recomendada (via IntelliJ IDEA)
+### Execução recomendada (via IntelliJ IDEA)
 
 Caso esteja utilizando a IDE IntelliJ IDEA, recomenda-se executar o projeto diretamente pela interface da IDE, utilizando o ícone de execução exibido ao lado do método main na classe WebScraper.java.
 
-### 💡 Alternativa (execução via terminal)
-1. Baixe a biblioteca Jsoup:
-```
-mkdir -p libs
-curl -L -o libs/jsoup-1.16.1.jar https://repo1.maven.org/maven2/org/jsoup/jsoup/1.16.1/jsoup-1.16.1.jar
-```
-2. Compile o projeto:
-```
-mkdir -p out
-javac -cp "libs/jsoup-1.16.1.jar" -d out src/main/java/br/com/nivelamento/WebScraper.java
-```
-3. Execute o programa:
-
--  No Linux:
-```
-java -cp "out:libs/jsoup-1.16.1.jar" br.com.nivelamento.WebScraper
-```
--  No Windows:
-```
-java -cp "out;libs/jsoup-1.16.1.jar" br.com.nivelamento.WebScraper
-```
 ### 🛠️ Tecnologias utilizadas
 - Java
 - Jsoup 1.16.1 – biblioteca utilizada para realizar o web scraping e extrair os links dos arquivos PDF
@@ -68,7 +47,7 @@ Após clonar o projeto, na raiz, execute o comando a seguir:
 ```
 cd teste-2
 ```
-### ✅ Execução recomendada (via IntelliJ IDEA)
+### Execução recomendada (via IntelliJ IDEA)
 Caso esteja utilizando a IDE IntelliJ IDEA, execute a classe Main.java utilizando o ícone de execução ao lado do método main.
 
 ### 🛠️ Tecnologias utilizadas
