@@ -109,10 +109,43 @@ Este teste tem como objetivo avaliar a habilidade de desenvolvimento de uma API 
 - Criação de uma interface em Vue.js que consome a API;
 - Demonstração da funcionalidade por meio de uma coleção no Postman.
 
+### Como executar?
+1. Após clonar o projeto, na raiz, execute o comando a seguir:
+```
+cd teste-4
+```
+2. Backend (FastAPI)
+```
+cd backend
+source ../.venv/bin/activate
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
+- Acesse: http://localhost:8000/docs
+3. Frontend (Vue.js + Vite)
+```cd frontend
+npm install
+npm run dev
+```
+- Acesse: http://localhost:5173
+
+**Um exemplo de funcionamento:**
+
+![image (2)](https://github.com/user-attachments/assets/a18aedf1-6eeb-49ce-8d2e-58363ea5002d)
+
+### Testar com Postman
+1. Abra o Postman
+2. Vá em Import > Upload Files
+3. Importe o arquivo:
+```
+postman/Teste_API_ANS.postman_collection.json
+```
+Execute a requisição *GET /buscar?query=amil* para testar a API
 ### 🛠️ Tecnologias utilizadas
-- Python 3.10+ – linguagem utilizada no backend da aplicação
-- Flask – microframework Python utilizado para criar o servidor e as rotas da API
-- Vue.js – framework JavaScript utilizado para desenvolver a interface web
-- Axios – biblioteca utilizada no frontend para fazer requisições à API
-- Postman – utilizado para documentar e testar a API
-- CSV – arquivo de dados utilizado como base para a busca
+- Python
+- FastAPI
+- Vue 3 + Vite
+- Axios
+- Pandas
+- Postman
+
