@@ -6,6 +6,8 @@
 - [Teste 3](#teste-3)
 - [Teste 4](#teste-4)
 
+### ⚠️ Observação importante:
+Os Testes 1 e 2 utilizam bibliotecas externas e arquivos de entrada. Por isso, recomenda-se fortemente executá-los pela IDE IntelliJ IDEA, que gerencia automaticamente as dependências e o ambiente de execução, evitando erros comuns no terminal.
 
 ## Teste 1
 Este teste tem como objetivo avaliar habilidades de Web Scraping utilizando a linguagem Java. A tarefa consiste em:
@@ -51,11 +53,31 @@ java -cp "out:libs/jsoup-1.16.1.jar" br.com.nivelamento.WebScraper
 java -cp "out;libs/jsoup-1.16.1.jar" br.com.nivelamento.WebScraper
 ```
 ### 🛠️ Tecnologias utilizadas
-
 - Java
 - Jsoup 1.16.1 – biblioteca utilizada para realizar o web scraping e extrair os links dos arquivos PDF
 - API padrão do Java (java.util.zip) – utilizada para compactação dos arquivos em .zip
 
 ## Teste 2
+Este teste tem como objetivo avaliar habilidades de transformação e manipulação de dados estruturados a partir de um documento em PDF. A tarefa consiste em:
+
+- Extrair os dados da tabela Rol de Procedimentos e Eventos em Saúde presente no Anexo I do Teste 1 (todas as páginas);
+- Salvar os dados extraídos em um arquivo .csv;
+- Compactar esse arquivo em um .zip com o nome Teste_Fernanda.zip;
+- Substituir as abreviações das colunas OD e AMB pelas descrições completas, conforme a legenda do rodapé do documento.
+
+### Como executar?
+Após clonar o projeto, na raiz, execute o comando a seguir:
+```
+cd teste-2
+```
+### ✅ Execução recomendada (via IntelliJ IDEA)
+Caso esteja utilizando a IDE IntelliJ IDEA, execute a classe Main.java utilizando o ícone de execução ao lado do método main.
+
+### 🛠️ Tecnologias utilizadas
+- Java 17 – linguagem utilizada para desenvolvimento da aplicação
+- Apache PDFBox – biblioteca utilizada para leitura e extração de texto do PDF
+- OpenCSV – biblioteca utilizada para gerar o arquivo CSV
+- API padrão do Java (java.util.zip) – utilizada para compactar o CSV em .zip
+
 
 
